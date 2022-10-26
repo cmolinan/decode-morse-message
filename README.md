@@ -1,75 +1,35 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Decode a Morse code message in Ruby language
 
-# Project Name
-
-> Description the project.
-
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+> In this project, first we created a method to decode only a char in Morse code, returning the corresponding character in uppercase (e.g. decode_char(".-") returns "A").
+> This method was used to created another method to decode a word, where every character be separated by a single space (e.g. decode_word("-- -.--") returns "MY").
+> Finally, using the word decode method, we created the method to decode a entire message, where every word will be separated by 3 spaces (e.g. decode("-- -.--   -. .- -- .") returns "MY NAME").
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple steps.
+git clone https://github.com/cmolinan/decode-morse-message in your terminal
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Then, using your IRB program, you can decode a message like this, using the decode_all method:
+decode_all(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+Output: => "A BOX FULL OF RUBIES"
 
 ## Authors
+👤 **Carlos Molina**
+- GitHub: https://github.com/cmolinan
+- LinkedIn: [Carlos Molina](https://www.linkedin.com/in/carlosmolinan/)
 
-👤 **Author1**
+👤 **Alazar Yilma**
+- GitHub: https://github.com/Agetuni
+- LinkedIn: [Alazar Yilma](https://www.linkedin.com/in/aleazaryilma/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
+## �� Contributing
 Contributions, issues, and feature requests are welcome!
-
+Feel free to check the issues page.
 Feel free to check the [issues page](../../issues/).
-
+​
 ## Show your support
-
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+## Acknowledgments 
+This webApp responds to a request from Microverse, which is based on the original idea of Nelson Sakwa, according to the Creative Commons License
+## �� License
+This project is [MIT](./MIT.md) licensed.
